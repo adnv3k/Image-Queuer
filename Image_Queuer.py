@@ -17,15 +17,7 @@ from main_window import Ui_MainWindow
 from session_display import Ui_session_display
 import resources_config
 
-__version__ = '0.4.2'
-
-# Mute revision and update bug
-# Volume was mispelled in the function to toggle mute, resulting in sound not working. Mute settings are now inherited from the parent, if there are any.
-# Display now shows "Up to date." if the version was compared to the newest version available. 
-# Removed version from window title.
-# BUG Previous image
-# Navigating to the previous image would play the 'new_entry' sound. 
-# Added self.new_entry configuration for previous_playlist_position().
+__version__ = '0.4.3'
 
 
 class MainApp(QMainWindow, Ui_MainWindow):
